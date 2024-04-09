@@ -6,20 +6,19 @@ endif
 
 # LineageOS System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.releasetype=$(LINEAGE_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(LINEAGE_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
-
+    ro.redbird.version=$(REDBIRD_VERSION) \
+    ro.redbird.releasetype=$(REDBIRD_BUILDTYPE) \
+    ro.redbird.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
+    ro.modversion=$(REDBIRD_VERSION) \
+    ro.redbirdlegal.url=https://redprez16.com/redbirdromlatest
 # LineageOS Platform Display Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION)
+    ro.redbird.display.version=$(REDBIRD_DISPLAY_VERSION)
 
 # LineageOS Platform SDK Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
+    ro.redbird.build.version.plat.sdk=$(REDBIRD_PLATFORM_SDK_VERSION)
 
 # LineageOS Platform Internal Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+    ro.redbird.build.version.plat.rev=$(REDBIRD_PLATFORM_REV)
